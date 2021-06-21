@@ -1,0 +1,27 @@
+[package]
+name = "borrow-owned"
+version = "0.1.0"
+authors = ["Ondrej Perutka <perutka.ondrej@gmail.com>"]
+license = "MIT"
+description = "Simple helper for temporary object moving"
+repository = "https://github.com/operutka/borrow-owned"
+keywords = ["async", "utility", "language", "concurrency"]
+categories = ["rust-patterns"]
+readme = "README.md"
+edition = "2018"
+
+[features]
+default = []
+async = ["futures-channel"]
+
+[dependencies.futures-channel]
+version = "0.3"
+optional = true
+
+[dev-dependencies.tokio]
+version = "1"
+features = ["macros", "rt-multi-thread", "time"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
