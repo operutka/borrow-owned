@@ -11,8 +11,8 @@
 [docs-url]: https://docs.rs/borrow-owned
 [license-badge]: https://img.shields.io/crates/l/borrow-owned
 [license-url]: https://github.com/operutka/borrow-owned/blob/master/LICENSE
-[build-badge]: https://travis-ci.org/operutka/borrow-owned.svg?branch=master
-[build-url]: https://travis-ci.org/operutka/borrow-owned
+[build-badge]: https://travis-ci.com/operutka/borrow-owned.svg?branch=master
+[build-url]: https://travis-ci.com/operutka/borrow-owned
 
 It is useful if you need to pass your object somewhere and you cannot pass
 a reference to the object because you wouldn't be able to guarantee that
